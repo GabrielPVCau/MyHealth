@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Criar Conta - MyHealth Web</title>
+
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <form id="cadastroForm">
+        <input type="text" id="nome" placeholder="Nome Completo" required><br>
+        <input type="radio" id="sexoMasculino" name="sexo" value="masculino"> Masculino
+        <input type="radio" id="sexoFeminino" name="sexo" value="feminino"> Feminino
+        
+        <div>
+           Data Nascimento:   <input type="date" id="dataNascimento" required><br> 
+        </div>
+        <input type="email" id="email" placeholder="Email" required><br>
+        <input type="password" id="senha" placeholder="Senha" required><br>
+        <button type="button" id="btnCadastrar">Cadastrar</button>
+    </form>
+ 
+    <script type="module" src="./js/criar-conta.js"></script> 
+</body>
+</html>

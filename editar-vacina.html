@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Editar Vacina</title>
+</head>
+<body>
+    <h1>Editar Vacina</h1>
+
+    <div>
+        <label for="dataVacinacao">Data da Vacinação:</label>
+        <input type="date" id="dataVacinacao">
+    </div>
+
+    <div>
+        <label for="nomeVacina">Nome da Vacina:</label>
+        <input type="text" id="nomeVacina">
+    </div>
+
+    <div>
+        <label for="dose">Dose:</label>
+        <input type="radio" id="dose1" name="dose" value="1">
+        <label for="dose1">1ª Dose</label>
+        <input type="radio" id="dose2" name="dose" value="2">
+        <label for="dose2">2ª Dose</label>
+        <input type="radio" id="dose3" name="dose" value="3">
+        <label for="dose3">3ª Dose</label>
+        <input type="radio" id="reforco" name="dose" value="reforco">
+        <label for="reforco">Reforço</label>
+        <input type="radio" id="doseUnica" name="dose" value="unica">
+        <label for="doseUnica">Dose Única</label>
+    </div>
+
+    <div>
+        <label for="dataProximaVacinacao">Data da Próxima Vacinação:</label>
+        <input type="date" id="dataProximaVacinacao">
+    </div>
+
+    <div>
+        <button id="btnAtualizarVacina">Atualizar Vacina</button>
+        <button id="btnDeletarVacina">Deletar Vacina</button>
+        <button id="btnMinhasVacinas">Ver Minhas Vacinas</button>
+        <button id="btnLogout">Logout</button>
+    </div>
+
+    <script type="module" src="./js/editar-vacina.js"></script>
+</body>
+</html>
