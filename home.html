@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Minhas Vacinas</h1>
+    <input type="text" id="campoPesquisa" placeholder="Pesquisar vacinas...">
+    <button id="botaoNovaVacina">Nova Vacina</button>
+    <button id="botaoLogout">Logout</button>
+    <table>
+        <tr>
+            <th>Data da Vacinação</th>
+            <th>Nome da Vacina</th>
+            <th>Dose</th>
+            <th>Comprovante</th>
+            <th>Data da Próxima Vacinação</th>
+        </tr>
+        <tbody id="listaVacinas">
+        </tbody>
+    </table>
+    <script type="module" src="./js/home.js"></script>
+</body>
+
+</html>
